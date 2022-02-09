@@ -1,16 +1,17 @@
-import "./App.css"
-import WarningSign from "./components/WarningSign"
-import MyBadge from "./components/MyBadge"
-import SingleBook from "./components/SingleBook"
+import "./App.css";
+import WarningSign from "./components/WarningSign";
+import MyBadge from "./components/MyBadge";
+// import SingleBook from "./components/SingleBook";
+import BookList from "./components/BookList";
 
 function App() {
   return (
     <>
-      <WarningSign message="Danger Alert"></WarningSign>
-      <MyBadge string="test123" color="primary"></MyBadge>
-      <SingleBook></SingleBook>
+      {/* <WarningSign message="Danger Alert"></WarningSign>
+      <MyBadge string="test123" color="primary"></MyBadge> */}
+      <BookList></BookList>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
