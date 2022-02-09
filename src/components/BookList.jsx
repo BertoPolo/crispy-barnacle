@@ -21,7 +21,7 @@ class BookList extends Component {
             <input
               type="text"
               onChange={(e) => this.handleChange(e.target.value)}
-              className="justify-content-center my-3"
+              className="justify-content-center m-3"
               placeholder="write a fliter"
             />
           </Row>
