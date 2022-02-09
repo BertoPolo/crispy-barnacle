@@ -9,6 +9,7 @@ function App() {
     <>
       {/* <WarningSign message="Danger Alert"></WarningSign>
       <MyBadge string="test123" color="primary"></MyBadge> */}
+      <MyBadge string={"asdasd"} />
       <BookList></BookList>
     </>
   );
